@@ -10,4 +10,6 @@
  cargo run
  Consideraciones
  El servidor se levanta en el puerto 8090
+ Para consumir el servicio de carga del archivo csv la url es: POST //localhost:8090/personas/csv con un formdata el nombre del parametro es archivo y su respectivo archivo csv
+ Para consultar los datos esta el servicio GET //localhost:8090/personas
  
